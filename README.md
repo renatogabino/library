@@ -12,6 +12,7 @@ Primeiramente, explore o código do sistema em [model.py](https://github.com/and
 Note que temos três classes: `Book` (livros que podem ser alugados), `Rental` (dados de um aluguel) e `Client` (clientes da biblioteca).
 A classe `Client` possui um método `statement`, responsável por gerar o recibo do aluguel para o cliente:
 
+
 ```python
     def statement(self) -> str:
 
